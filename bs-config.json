@@ -1,0 +1,9 @@
+{
+    "injectChanges" : true,
+    "files" : [
+        "./dist/**/*"
+        , "./**/*.{.html, htm, css, js, ts}"
+        , "*.html"
+    ],
+    "server" : { "baseDir":"./src"}
+}
