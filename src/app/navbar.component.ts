@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-nav-bar',
+  selector: 'app-navbar',
   template: `
     <nav class="container navbar">
         <h1>{{title}}</h1>
@@ -12,6 +12,6 @@ import { Component } from '@angular/core';
     </nav>
   `
 })
-export class NavBarComponent {
+export class NavbarComponent {
   title = 'Songs I Like';
 }
