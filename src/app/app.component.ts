@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
       color: white;
     }`,
     `main {
-      background: rgba(40,40,100);
+      background: rgba(30,30,80);
       height: 80%;
     }`
   ]
