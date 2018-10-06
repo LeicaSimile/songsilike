@@ -8,7 +8,8 @@
     "dev": "lite-server",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --output-path songsilike --base-href https://leicasimile.github.io/songsilike/ && ngh --dir dist/songsilike"
   },
   "private": true,
   "dependencies": {

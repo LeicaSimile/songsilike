@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar.component';
 import { CategorylistComponent } from './categories/categorylist.component';
 import { AboutComponent } from './about.component';
 import { SonglistComponent } from './songlist/songlist.component';
+import { Song } from './songlist/song';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SonglistComponent } from './songlist/songlist.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Song
   ],
   providers: [],
   bootstrap: [AppComponent]
