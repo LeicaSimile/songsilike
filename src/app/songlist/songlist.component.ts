@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
     <div class="container">
       <ul>
         <li *ngFor="let song of songs">
-          <app-song></app-song>
+          <app-songcard></app-songcard>
         </li>
       </ul>
     </div>

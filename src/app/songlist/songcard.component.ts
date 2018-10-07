@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Song } from './song';
 
 @Component({
@@ -6,10 +6,10 @@ import { Song } from './song';
   template: `
     <div class="container">
       <h2>{{song.title}}</h2>
-      <span>{{song.artist}}</span>
+      <p>{{song.artist}}</p>
     </div>
   `
 })
 export class SongcardComponent {
-  song: Song;
+  @Input() song: Song;
 }
