@@ -8,19 +8,20 @@ import { CategorylistComponent } from './categories/categorylist.component';
 import { AboutComponent } from './about.component';
 import { SonglistComponent } from './songlist/songlist.component';
 import { Song } from './songlist/song';
+import { SongcardComponent } from './songlist/songcard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SonglistComponent,
+    SongcardComponent,
     CategorylistComponent,
     AboutComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    Song
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
