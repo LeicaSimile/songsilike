@@ -4,17 +4,18 @@ import { Song } from './song';
 @Component({
   selector: 'app-songcard',
   template: `
-    <div class="container-fluid">
-      <h2>{{song.id}}. {{song.title}}</h2>
-      <p>{{song.artist}}</p>
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">{{song.title}}</h5>
+        <p class="card-subtitle text-muted">{{song.artist}}</p>
+      </div>
     </div>
   `,
   styles: [
-    `.container-fluid {
+    `.card {
       background: rgb(250,250,250);
-      margin-bottom: 1rem;
-      padding: 0.5rem 1rem;
-      width: 90%;
+      margin-bottom: 0.2rem;
+      min-width: 13rem;
     }`
   ]
 })

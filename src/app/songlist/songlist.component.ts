@@ -22,6 +22,12 @@ export class SonglistComponent implements OnInit {
       new Song('Look What You Made Me Do', 'Taylor Swift'),
       new Song('Look What You Made Me Do', 'Taylor Swift'),
       new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
       new Song('Look What You Just Made Me Do', 'Taylor Swift')
     ];
   }
