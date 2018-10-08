@@ -1,12 +1,14 @@
 import { Input } from '@angular/core';
 
 export class Song {
-  static _id = 1;
-  id: number;
-  @Input() title: string;
-  @Input() artist: string;
+  private static _id = 1;
+  public id: number;
+  public title: string;
+  public artist: string;
 
-  constructor() {
+  constructor(@Input() title: string, @Input() artist: string) {
     this.id = Song._id++;
+    this.title = title;
+    this.artist = artist;
   }
 }

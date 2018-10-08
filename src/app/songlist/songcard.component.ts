@@ -8,7 +8,15 @@ import { Song } from './song';
       <h2>{{song.title}}</h2>
       <p>{{song.artist}}</p>
     </div>
-  `
+  `,
+  styles: [
+    `.container {
+      background: rgba(250,250,250,0.8);
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      max-width: 90%;
+    }`
+  ]
 })
 export class SongcardComponent {
   @Input() song: Song;

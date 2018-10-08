@@ -23,7 +23,7 @@ import { SongcardComponent } from './songlist/songcard.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [Song],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
