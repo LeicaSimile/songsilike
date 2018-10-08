@@ -6,21 +6,18 @@ import { Component } from '@angular/core';
   <div class="header">
     <app-navbar></app-navbar>
   </div>
-  <main class="container">
+  <main class="container-fluid scrollbar">
     <router-outlet></router-outlet>
   </main>
   `,
   styles: [
-    `.header {
-      background: rgb(20,20,50);
-      color: white;
-    }`,
     `main {
-      background: rgba(30,30,80);
-      height: 80%;
+      background: rgba(200,240,255);
+      padding: 1rem;
+      height: 85%;
+      width: 65%;
+      overflow-y: scroll;
     }`
   ]
 })
-export class AppComponent {
-  
-}
+export class AppComponent {}

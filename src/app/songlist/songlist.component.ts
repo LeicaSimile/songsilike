@@ -3,13 +3,11 @@ import { Song } from './song';
 
 @Component({
   template: `
-    <div class="container">
-      <ul>
-        <li *ngFor="let song of songs">
-          <app-songcard [song]="song"></app-songcard>
-        </li>
-      </ul>
-    </div>
+    <ul class="list-unstyled">
+      <li *ngFor="let song of songs">
+        <app-songcard [song]="song"></app-songcard>
+      </li>
+    </ul>
   `
 })
 export class SonglistComponent implements OnInit {
@@ -17,8 +15,14 @@ export class SonglistComponent implements OnInit {
 
   ngOnInit() {
     this.songs = [
-      new Song('Let It Go', 'Idina Menzel'),
-      new Song('For the First Time in Forever (Reprise)', 'Kristen Bell & Idina Menzel')
+      new Song('Look What You Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me oo', 'Taylor Swift'),
+      new Song('Look What You Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
+      new Song('Look What You Just Made Me Do', 'Taylor Swift')
     ];
   }
 }
