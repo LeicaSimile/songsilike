@@ -20,5 +20,6 @@ export class SonglistComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.songs = this._data.songs;
   }
 }
