@@ -14,7 +14,6 @@ export class DataService {
             new Song('How Far I\'ll Go', 'Auli\'i Cravalho'),
             new Song('Project Ashe', 'League of Legends'),
             new Song('Winterbliss', 'cycerin'),
-            new Song('How Far I\'ll Go (Reprise)', 'Auli\'i Cravalho'),
             new Song('I Don’t Wanna Live Forever', 'Taylor Swift ft. Zayn'),
             new Song('Riptide (Taylor Swift Cover)', 'Taylor Swift'),
             new Song('Sweet Escape (Cover)', 'Taylor Swift'),
@@ -32,8 +31,7 @@ export class DataService {
             new Song('Delicate', 'Taylor Swift'),
             new Song('Satisfied', 'Hamilton'),
             new Song('September (Taylor Swift Cover)', 'Taylor Swift'),
-            new Song('American Girl (Taylor Swift Cover)', 'Taylor Swift'),
-            new Song('Delicate (Acoustic)', 'Taylor Swift'),
+            new Song('American Girl (Tom Petty Tribute)', 'Taylor Swift'),
             new Song('Forever & Always (Piano version)', 'Taylor Swift'),
             new Song('You don\'t have to say you\'re okay', 'Xeuphoria')
         ];

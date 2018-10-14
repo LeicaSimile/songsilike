@@ -4,16 +4,18 @@ import { Song } from './song';
 @Component({
   selector: 'app-songcard',
   template: `
+  <a routerLink="/song/{{song.id}}">
     <div class="card w-75">
       <div class="card-body">
         <h5 class="card-title">{{song.title}}</h5>
         <p class="card-subtitle text-muted">{{song.artist}}</p>
       </div>
     </div>
+  </a>
   `,
   styles: [
     `.card {
-      background: rgb(250,250,250);
+      background: rgb(235,250,255);
       margin-bottom: 0.2rem;
       min-width: 13rem;
     }`

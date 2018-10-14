@@ -3,8 +3,10 @@ import { Component } from '@angular/core';
 @Component({
   template: `
     <div class="container">
-      about
+      lyrics
     </div>
   `
 })
-export class AboutComponent {}
+export class LyricpageComponent {
+  
+}

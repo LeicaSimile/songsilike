@@ -10,6 +10,7 @@ import { SonglistComponent } from './songlist/songlist.component';
 import { Song } from './songlist/song';
 import { SongcardComponent } from './songlist/songcard.component';
 import { DataService } from './data.service';
+import { LyricpageComponent } from './lyricpage.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DataService } from './data.service';
     SonglistComponent,
     SongcardComponent,
     CategorylistComponent,
-    AboutComponent
+    AboutComponent,
+    LyricpageComponent
   ],
   imports: [
     BrowserModule,
