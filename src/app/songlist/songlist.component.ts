@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Song } from './song';
+import { DataService } from '../data.service';
 
 @Component({
   template: `
@@ -12,23 +13,12 @@ import { Song } from './song';
 })
 export class SonglistComponent implements OnInit {
   songs: Song[];
+  private _data: DataService;
+
+  constructor(data: DataService) {
+    this._data = data;
+  }
 
   ngOnInit() {
-    this.songs = [
-      new Song('Look What You Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me oo', 'Taylor Swift'),
-      new Song('Look What You Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift'),
-      new Song('Look What You Just Made Me Do', 'Taylor Swift')
-    ];
   }
 }
