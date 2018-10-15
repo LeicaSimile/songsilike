@@ -30,6 +30,12 @@ import { Song } from './song';
     }
     .card:hover h5 {
       color: rgb(250,250,250);
+    }
+    a:focus .card {
+      background: rgb(100, 200, 250);
+    }
+    a:focus h5 {
+      color: rgb(250,250,250);
     }`
   ]
 })
