@@ -8,7 +8,7 @@ import { Song } from './song';
     <div class="card w-75">
       <div class="card-body">
         <h5 class="card-title">{{song.title}}</h5>
-        <p class="card-subtitle text-muted">{{song.artist}}</p>
+        <p class="card-subtitle text-muted">{{song.artist}} — {{song.category}}</p>
       </div>
     </div>
   </a>

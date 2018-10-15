@@ -5,10 +5,12 @@ export class Song {
   public id: number;
   public title: string;
   public artist: string;
+  public category: string;
 
-  constructor(@Input() title: string, @Input() artist: string) {
+  constructor(@Input() title: string, @Input() artist: string, @Input() category: string) {
     this.id = Song._id++;
     this.title = title;
     this.artist = artist;
+    this.category = category;
   }
 }
