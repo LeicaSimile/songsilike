@@ -8,7 +8,7 @@ import { Song } from './song';
     <div class="card w-75">
       <div class="card-body">
         <h5 class="card-title">{{song.title}}</h5>
-        <p class="card-subtitle text-muted">{{song.artist}} — {{song.category}}</p>
+        <p class="card-subtitle text-muted">{{song.artist}}<span *ngIf="song.artist != song.category"> — {{song.category}}</span></p>
       </div>
     </div>
   </a>
