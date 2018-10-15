@@ -15,8 +15,6 @@ export class DataService {
             new Song('Project Ashe', 'League of Legends', 'League of Legends'),
             new Song('Winterbliss', 'cycerin', 'cycerin'),
             new Song('I Don’t Wanna Live Forever', 'Taylor Swift ft. Zayn', 'Taylor Swift'),
-            new Song('Riptide (Taylor Swift Cover)', 'Taylor Swift', 'Taylor Swift'),
-            new Song('Sweet Escape (Cover)', 'Taylor Swift', 'Taylor Swift'),
             new Song('Child of Light', 'Lindsey Stirling', 'Lindsey Stirling'),
             new Song('Song of the Caged Bird', 'Lindsey Stirling', 'Lindsey Stirling'),
             new Song('Evermore', 'Dan Stevens', 'The Beauty and the Beast'),
@@ -30,8 +28,6 @@ export class DataService {
             new Song('New Year\'s Day', 'Taylor Swift', 'Taylor Swift'),
             new Song('Delicate', 'Taylor Swift', 'Taylor Swift'),
             new Song('Satisfied', 'Hamilton', 'Hamilton'),
-            new Song('September (Taylor Swift Cover)', 'Taylor Swift', 'Taylor Swift'),
-            new Song('American Girl (Tom Petty Tribute)', 'Taylor Swift', 'Taylor Swift'),
             new Song('Forever & Always (Piano version)', 'Taylor Swift', 'Taylor Swift'),
             new Song('You don\'t have to say you\'re okay', 'Xeuphoria', 'Xeuphoria')
         ];
