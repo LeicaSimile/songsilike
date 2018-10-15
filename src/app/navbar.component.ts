@@ -9,10 +9,16 @@ import { Component } from '@angular/core';
           <h1 class="navbar-brand">{{title}}</h1>
         </div>
         <div id="navbar">
-          <ul class="navbar list-inline">
-            <li class="list-inline-item"><a routerLink="">Songs</a></li>
-            <li class="list-inline-item"><a routerLink="about">About</a></li>
-            <li class="list-inline-item"><a>Search</a></li>
+          <ul class="list-inline nav-tabs">
+            <li class="list-inline-item nav-item">
+              <a routerLink="" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Songs</a>
+            </li>
+            <li class="list-inline-item nav-item">
+              <a routerLink="about" class="nav-link" routerLinkActive="active">About</a>
+            </li>
+            <li class="list-inline-item nav-item">
+              <a routerLink="search" class="nav-link" routerLinkActive="active">Search</a>
+            </li>
           </ul>
         </div>
       </nav>
