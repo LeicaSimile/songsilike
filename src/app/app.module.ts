@@ -19,7 +19,6 @@ import { NotfoundComponent } from './notfound.component';
     NavbarComponent,
     SonglistComponent,
     SongcardComponent,
-    CategorylistComponent,
     AboutComponent,
     LyricpageComponent,
     NotfoundComponent

@@ -11,7 +11,6 @@ import { Component } from '@angular/core';
         <div id="navbar">
           <ul class="navbar list-inline">
             <li class="list-inline-item"><a routerLink="">Songs</a></li>
-            <li class="list-inline-item"><a routerLink="categories">Categories</a></li>
             <li class="list-inline-item"><a routerLink="about">About</a></li>
             <li class="list-inline-item"><a>Search</a></li>
           </ul>
