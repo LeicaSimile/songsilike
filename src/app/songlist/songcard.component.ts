@@ -18,6 +18,18 @@ import { Song } from './song';
       background: rgb(235,250,255);
       margin-bottom: 0.2rem;
       min-width: 13rem;
+    }
+    h5 {
+      color: rgb(60,200,250);
+    }
+    a {
+      text-decoration: none;
+    }
+    .card:hover {
+      background: rgb(100, 200, 250);
+    }
+    .card:hover h5 {
+      color: rgb(250,250,250);
     }`
   ]
 })
