@@ -6,7 +6,7 @@ import { DataService } from '../data.service';
   template: `
     <ul class="list-unstyled">
       <li *ngFor="let song of songs">
-        <app-songcard [song]="song"></app-songcard>
+        <app-songcard [song]="song" (keypress.arrowdown)="navigate($event)"></app-songcard>
       </li>
     </ul>
   `
@@ -22,5 +22,25 @@ export class SonglistComponent implements OnInit {
   ngOnInit() {
     this.songs = this._data.songs;
     this.songs.sort((a, b) => a.title.localeCompare(b.title));
+  }
+
+  navigate(event: any) {
+    console.log('hi');
+    let element: any;
+
+    switch (event.key) {
+      case 'Up':
+      case 'ArrowUp':
+        element = event.srcElement.previousElementSibling;
+        break;
+      case 'Down':
+      case 'ArrowDown':
+        element = event.srcElement.nextElementSibling;
+        break;
+    }
+
+    if (element != null) {
+      //
+    }
   }
 }
