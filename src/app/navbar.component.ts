@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
     <div class="container">
       <nav class="navbar navbar-fixed-top">
         <div class="navbar-header">
-          <h1 class="navbar-brand">{{title}}</h1>
+          <a routerLink=""><h1 class="navbar-brand">{{title}}</h1></a>
         </div>
         <div id="navbar">
           <ul class="list-inline nav-tabs">
