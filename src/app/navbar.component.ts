@@ -16,9 +16,7 @@ import { Component } from '@angular/core';
             <li class="list-inline-item nav-item">
               <a routerLink="about" class="nav-link" routerLinkActive="active">About</a>
             </li>
-            <li class="list-inline-item nav-item">
-              <a routerLink="search" class="nav-link" routerLinkActive="active">Search</a>
-            </li>
+            <app-searchbar class="list-inline-item nav-item"></app-searchbar>
           </ul>
         </div>
       </nav>

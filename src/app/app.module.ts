@@ -10,6 +10,7 @@ import { SongcardComponent } from './songlist/songcard.component';
 import { DataService } from './data.service';
 import { LyricpageComponent } from './lyricpage.component';
 import { NotfoundComponent } from './notfound.component';
+import { SearchbarComponent } from './searchbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NotfoundComponent } from './notfound.component';
     SongcardComponent,
     AboutComponent,
     LyricpageComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    SearchbarComponent
   ],
   imports: [
     BrowserModule,

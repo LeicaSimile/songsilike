@@ -15,6 +15,13 @@ a {
     color: rgb(60,200,250);
 } 
 
+.btn-info {
+    background-color: rgb(100, 200, 250);
+}
+.btn-info:hover {
+    background-color: rgb(40,180,250);
+}
+
 .scrollbar::-webkit-scrollbar {
     background-color: transparent;
     width: 0.75em;
